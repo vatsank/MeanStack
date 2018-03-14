@@ -1,5 +1,20 @@
 # LibraryApp
 
+Create Angular Project
+Update the package.json
+"express": "^4.15.4",
+"mongodb": "^2.2.31“
+Create a File server.js
+Create a Collection in mongoDb and Add data 
+Create a Server File in server/routes
+Build the Project by calling  ng build
+Run by invoking node server
+Create a Angular Service
+DI  into component
+Update the template
+Invoke node server.
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
 ## Development server

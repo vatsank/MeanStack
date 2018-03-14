@@ -1,0 +1,11 @@
+table {
+    border: 2px solid blue;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+tr,
+td {
+    border: 2px solid blue;
+}
