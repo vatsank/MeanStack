@@ -7,7 +7,8 @@ const ObjectID = require('mongodb').ObjectID;
 const connection = (closure) => {
     return MongoClient.connect('mongodb://localhost:27017/test', (err, db) => {
         if (err) return console.log(err);
-
+        // change db in function to client
+        // var db=client.db('test');
         closure(db);
     });
 };
